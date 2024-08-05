@@ -1,0 +1,394 @@
+/* body styles */
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom:5%;
+}
+
+/*navbar styles*/
+
+a {
+    text-decoration: none;
+}
+
+a.navbar-links {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#navbar-div {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:500px)
+{
+    #navbar-div {
+        display: none;
+    }
+}
+
+/*backdrop styles*/
+
+#backdrop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 35px;
+    padding: 0px 8%;
+    margin-top: 6%;
+    text-align: left;
+    
+}
+
+@media screen and (max-width:500px)
+{
+    #backdrop{flex-direction:column-reverse;
+        align-items: center;
+        text-align: center;
+        }
+    
+   
+}
+
+img.my-pic {
+    height:auto;
+    width:300px;
+}
+
+#left-backdrop-div {
+    width: 55%;
+    color:#21243D;
+
+}
+
+@media screen and (max-width:500px)
+{
+    #left-backdrop-div{width:100%;}
+}
+
+@media screen and (max-width:800px)
+{
+    img.my-pic{width:250px;}
+}
+@media screen and (max-width:500px)
+{
+    img.my-pic{width:200px;}
+}
+
+#right-backdrop-div {
+    align-items: center;
+    display: flex;
+    width: 40%;
+    padding: 0;
+}
+
+@media screen and (max-width:500px)
+{
+    #right-backdrop-div {
+        width: 100%;
+            justify-content:center;
+        
+    }
+}
+
+#left-backdrop-div>h1 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+@media screen and (max-width:500px)
+{
+    #left-backdrop-div>h1 {
+        font-size: 32px;
+    }
+}
+
+#left-backdrop-div>p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#backdrop-button {
+    background-color: #bc8225;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width:500px)
+{
+    #backdrop-button {
+        font-size: 20px;
+    }
+}
+
+#backdrop-button:hover {
+    background-color:#533a12; /* Changes background color on hover */
+}
+
+/* blog posts section styles */
+
+#recent-blog-posts-section {
+    background-color: #EDF7FA;
+    padding: 1.5% 8%;
+    margin-top: 3%;
+}
+@media screen and (max-width:500px)
+{
+    #recent-blog-posts-section {
+      
+        padding: 5% 2%;
+    }
+}
+#recent-posts-header {
+    display:flex;
+    justify-content: space-between;
+    padding: 0%;
+}
+
+.my-h4 {
+    margin:0;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
+
+@media screen and (max-width:500px)
+{
+    .my-h4 {
+        font-size:20px;
+    }
+}
+
+div.card {
+    color: #21243D;
+    font-weight:400;
+    border-radius:5px;
+    padding: 20px 22px;
+    background-color: white;
+}
+
+@media screen and (max-width:420px)
+{
+    div.card {
+        padding: 20px 8px;
+    }
+}
+
+h2.my-h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #21243D;
+}
+
+@media screen and (max-width:500px)
+{
+    .my-h2 {
+        font-size:20px;
+    }
+} 
+
+div.card > span {
+    padding: 5px 10px;
+}
+
+@media screen and (max-width:800px) {
+    div.card > span {
+        padding: 5px 1px;
+    }
+}
+
+div.horizontal-card >div>p {
+        color:#21243D;
+        }
+
+
+div.card > p {
+    font-size: 16px;
+}
+
+@media screen and (max-width:500px)
+{
+    div.card > p {
+        font-size: 13px;
+    }
+    
+}
+
+#card-container {
+    display:flex;
+    flex-direction: row;
+        column-gap: 1%;
+}
+
+@media screen and (max-width:500px)
+{
+    #card-container {
+        flex-direction: column;
+    row-gap: 30px;
+    }
+}
+
+
+.card {
+    width:50%;
+}
+
+@media screen and (max-width:420px)
+{
+    .card {
+        width:95%;
+    }
+}
+
+@media screen and (min-width:425px)
+{
+    .card {
+        width:89%;
+    }
+}
+
+.span-elements {
+    font-size:18px;
+}
+
+@media screen and (max-width:800px)
+{
+    .span-elements {
+        font-size:16px;
+        
+    }
+   
+    
+}
+
+a.header {font-size:18px;
+   
+}
+
+@media screen and (max-width:500px)
+{
+    a.header {font-size:15px;
+    }
+}
+
+
+ /*featured works styles*/
+
+section.featured-works {
+    background-color:white;
+    padding: 5% 8%;
+    display:flex;
+    flex-direction:column;
+    row-gap:10px;
+}
+
+
+div.horizontal-card {
+    display:flex;
+   
+    flex-direction:row;
+        column-gap:20px;
+}
+@media screen and (max-width:500px)
+{
+    div.horizontal-card {
+        flex-direction: column;
+        row-gap:3%;
+        
+    }
+}
+.featured-works-pic {
+    width: 300px;
+    height:auto;
+}
+
+span.pill {
+    background-color:#142850;
+    padding: 1.5px 15px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size:15px;
+
+}
+@media screen and (max-width:800px)
+{
+    span.pill {
+        font-size:10px;
+        padding: 1.5px 8px;
+    }
+}
+
+span.secondary-text {
+    font-size:20px;
+    margin-left:16px;
+    color:#8695A4;
+}
+@media screen and (max-width:800px)
+{
+    span.secondary-text {
+        font-size:14px;
+        margin-left:5px;
+    }
+}
+
+div.para>p {
+    font-size:16px;
+}
+@media screen and (max-width:500px)
+{
+    div.para>p {
+        font-size:13px;
+    }
+    
+}
+div.horizontal-card >img {
+      border-radius:6px;
+}
+@media screen and (max-width:500px)
+{
+.featured-works-pic{
+    width:250px;
+}
+}
+
+/*featured works ends here*/
+
+/*social media links styles*/
+
+#social-media-links-section {
+    column-gap:15px;
+    font-size:30px;
+    color:#21243D;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#social-media-links-section>a {
+    color:#21243D;
+}
+
+/* copyright para styles */
+
+#copyright-para {
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+    color: #21243D;
+}
