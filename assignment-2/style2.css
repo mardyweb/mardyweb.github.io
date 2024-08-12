@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(255, 207, 215);
+    color:rgb(136, 34, 54);
+    padding-bottom: 5%;
+}
+
+.display-3 {
+    color: rgb(136, 34, 54);
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.display-6 {
+    color: rgb(172, 55, 79);
+    font-weight: bold;
+    font-size:30px;
+}
+
+.subheading {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(172, 55, 79);
+}
+
+.btn {
+    color: white;
+    background-color: rgb(206, 128, 141);
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(136, 34, 54);
+}
+
+.list-div { 
+    margin-top: 0%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+h1, h2 {
+        text-align: center;
+    }
+
+.form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+li.list-group {
+    background-color: white;
+    color: rgb(99, 98, 98);
+    padding: 0.25% 1% ;
+    padding-bottom: 0.75%;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row; 
+    font-weight: 450;
+    font-size: medium;
+}
+
+div.list-group {
+    display: block;
+}
+
+#save-btn {
+    font-size: x-large;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.deleteButton {
+    padding: 0.5% 1.5%;
+    font-size: large;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width:500px)
+{
+    .display-3 {
+        margin-bottom: 13%;
+    }
+
+    .display-6,.subheading{
+        font-size: 24px;
+    }
+
+    #save-btn {
+        font-size: larger;
+        padding: 3% 5%;
+        margin-bottom: 10%;
+    }
+
+    div.list-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li.list-group {
+        padding: 0.25% 1% ;
+        padding-bottom: 0.75%;
+        padding-left: 10px;
+        padding-right:10px;
+        display:flex;
+        flex-direction: column; 
+    }
+
+    .deleteButton {
+        font-size: medium;
+    }
+    
+}
