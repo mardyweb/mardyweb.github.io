@@ -1,0 +1,168 @@
+#navbar {
+    position: absolute;
+    background-image: url("peakpx.jpg");
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100vw;
+}
+
+
+.display-3 {
+    font-weight: bolder;
+}
+
+.display-6 {
+    margin-top: 3%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(99, 74, 57);
+    height: 100vh;
+    width:100vw;
+    margin-right:0%;
+}
+
+#pic-div {
+    position: relative;
+    background-image: url("peakpx.jpg");
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: large;
+    width:60%;
+    height: 100%;
+    padding-bottom: 0vh;
+    padding-left: 3%;
+}
+#navbar {
+    margin-top: 0%;
+    
+}
+
+#my-form {
+    background-color:  rgba(67, 33, 15,0.75);
+    padding: 3% 3%;
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 15%;
+}
+
+input {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+#submitbutton{
+    background-color: rgb(67, 33, 15);
+    color: white;
+    margin-top: 3%;
+    font-size: large;
+}
+
+#submitbutton:hover {
+    background-color: rgb(36, 6, 6);
+}
+#list-div {
+   
+    background-color: rgb(67, 33, 15);
+    padding: 20px;
+    overflow-y: auto;
+    color: white;
+    width:40%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#book-list {
+    padding: 15px;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#book-list li {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+#book-list li:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:500px)
+{
+    #main-div {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #pic-div {
+        font-size: medium;
+        width:100%;
+        padding-bottom: 0vh;
+        padding-left: 3%;
+        height: 60vh;
+    }
+    #list-div {
+        width:100%;
+    }
+    #my-form {
+        padding: 3% 3%;
+        width: 85%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    #submitbutton {
+        font-size: medium;
+        margin-top: 1.5%;
+    }
+    .display-6 {
+        font-size: large;
+    }
+    .form-group {
+        margin-bottom: 0.6em;
+    }
+    input {
+        height: 30px;
+    }
+    #navbar {
+        display: none;
+    } 
+}
