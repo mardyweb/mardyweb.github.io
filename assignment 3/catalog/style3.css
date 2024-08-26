@@ -145,10 +145,12 @@ h2 {
     }
     #my-form {
         padding: 3% 3%;
-        width: 85%;
-        margin-top: 15%;
-        margin-bottom: 15%;
-    }
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    } 
+        
     #submitbutton {
         font-size: medium;
         margin-top: 1.5%;
